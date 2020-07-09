@@ -19,7 +19,6 @@
   ],
   "_resolved": "git://github.com/haven-protocol-org/haven-nodejs-wrapper",
   "_spec": "git://github.com/haven-protocol-org/haven-nodejs-wrapper",
-  "_where": "/home/ncoggins/src/cryptonote-nodejs-pool",
   "author": {
     "name": "Haven Protocol Team",
     "email": "team@havenprotocol.org"
@@ -49,6 +48,7 @@
     "url": "git+https://github.com/haven-protocol-org/haven-nodejs-wrapper"
   },
   "scripts": {
+    "preinstall": "ln -s `node -e 'console.log(process.env.HAVENDIR)'`",
     "install": "node-gyp rebuild"
   },
   "version": "1.0.1"
