@@ -17,7 +17,7 @@
     "#USER",
     "/"
   ],
-  "_resolved": "git://github.com/haven-protocol-org/haven-nodejs-wrapper#f382894d9cbce47478c789fa7abb430293ac9a32",
+  "_resolved": "git://github.com/haven-protocol-org/haven-nodejs-wrapper",
   "_spec": "git://github.com/haven-protocol-org/haven-nodejs-wrapper",
   "_where": "/home/ncoggins/src/cryptonote-nodejs-pool",
   "author": {
