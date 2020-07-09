@@ -1,0 +1,55 @@
+{
+  "_from": "git://github.com/haven-protocol-org/haven-nodejs-wrapper",
+  "_id": "haven-nodejs-wrapper@1.0.1",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/haven-nodejs-wrapper",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "git://github.com/haven-protocol-org/haven-nodejs-wrapper",
+    "rawSpec": "git://github.com/haven-protocol-org/haven-nodejs-wrapper",
+    "saveSpec": "git://github.com/haven-protocol-org/haven-nodejs-wrapper",
+    "fetchSpec": "git://github.com/haven-protocol-org/haven-nodejs-wrapper",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git://github.com/haven-protocol-org/haven-nodejs-wrapper#f382894d9cbce47478c789fa7abb430293ac9a32",
+  "_spec": "git://github.com/haven-protocol-org/haven-nodejs-wrapper",
+  "_where": "/home/ncoggins/src/cryptonote-nodejs-pool",
+  "author": {
+    "name": "Haven Protocol Team",
+    "email": "team@havenprotocol.org"
+  },
+  "bugs": {
+    "url": "https://github.com/haven-protocol-org/haven-nodejs-wrapper/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "bindings": "*",
+    "nan": "^2.0.0"
+  },
+  "deprecated": false,
+  "description": "Haven-NodeJS-Wrapper for pool offshore support ===================================================",
+  "gypfile": true,
+  "homepage": "https://github.com/haven-protocol-org/haven-nodejs-wrapper#readme",
+  "keywords": [
+    "cryptonight",
+    "cryptonote",
+    "monero",
+    "haven"
+  ],
+  "main": "haven-nodejs-wrapper",
+  "name": "haven-nodejs-wrapper",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haven-protocol-org/haven-nodejs-wrapper"
+  },
+  "scripts": {
+    "install": "node-gyp rebuild"
+  },
+  "version": "1.0.1"
+}
