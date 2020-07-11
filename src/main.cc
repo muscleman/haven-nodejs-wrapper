@@ -311,12 +311,12 @@ NAN_METHOD(address_decode_integrated) {
         info.GetReturnValue().Set(Nan::New(static_cast<uint32_t>(prefix)));
     }
 }
-/*
+
 NAN_METHOD(get_merged_mining_nonce_size) {
     Local<Integer> returnValue = Nan::New(static_cast<uint32_t>(MM_NONCE_SIZE));
     info.GetReturnValue().Set(returnValue);
 }
-
+/*
 NAN_METHOD(construct_mm_parent_block_blob) { // (parentBlockTemplate, blob_type, childBlockTemplate)
     if (info.Length() < 3) return THROW_ERROR_EXCEPTION("You must provide three arguments (parentBlock, blob_type, childBlock).");
 
@@ -391,7 +391,7 @@ NAN_MODULE_INIT(init) {
     Nan::Set(target, Nan::New("address_decode").ToLocalChecked(), Nan::GetFunction(Nan::New<FunctionTemplate>(address_decode)).ToLocalChecked());
     Nan::Set(target, Nan::New("address_decode_integrated").ToLocalChecked(), Nan::GetFunction(Nan::New<FunctionTemplate>(address_decode_integrated)).ToLocalChecked());
 
-    //Nan::Set(target, Nan::New("get_merged_mining_nonce_size").ToLocalChecked(), Nan::GetFunction(Nan::New<FunctionTemplate>(get_merged_mining_nonce_size)).ToLocalChecked());
+    Nan::Set(target, Nan::New("get_merged_mining_nonce_size").ToLocalChecked(), Nan::GetFunction(Nan::New<FunctionTemplate>(get_merged_mining_nonce_size)).ToLocalChecked());
     //Nan::Set(target, Nan::New("construct_mm_parent_block_blob").ToLocalChecked(), Nan::GetFunction(Nan::New<FunctionTemplate>(construct_mm_parent_block_blob)).ToLocalChecked());
     //Nan::Set(target, Nan::New("construct_mm_child_block_blob").ToLocalChecked(), Nan::GetFunction(Nan::New<FunctionTemplate>(construct_mm_child_block_blob)).ToLocalChecked());
 }

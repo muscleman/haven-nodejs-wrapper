@@ -13,6 +13,8 @@
                 "haven-offshore/monero/src/crypto/hash.c",
                 "haven-offshore/monero/src/crypto/keccak.c",
                 "haven-offshore/monero/src/common/base58.cpp",
+                "haven-offshore/monero/src/offshore/pricing_record.cpp",
+                "haven-offshore/monero/contrib/epee/src/mlocker.cpp",
             ],
             "include_dirs": [
 		"haven-offshore/monero/src",
@@ -23,7 +25,9 @@
             "link_settings": {
                 "libraries": [
                     "-lboost_system",
+                    "-lboost_chrono",
                     "-lboost_date_time",
+		    "-lboost_thread",
                 ]
             },
             "cflags_c":  [
